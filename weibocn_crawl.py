@@ -22,9 +22,6 @@ import requests
 # print(r.status_code)
 # print(r.content)
 
-# # global definition
-# username='00447511714477'
-# password='woshishui'
 
 class MWeiboLogin:
     
@@ -32,8 +29,8 @@ class MWeiboLogin:
         self.session=requests.Session()
 
     def userlogin(self,
-                    username="00447511714477",
-                    password="woshishui",
+                    username="",
+                    password="",
                     verbose=True):
         """
         login module for moblie weibo
